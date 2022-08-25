@@ -1,0 +1,155 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+
+body {
+    background: #202124;
+    display: flex;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.containerTop {
+    position: absolute;
+    height: 14%;
+    width: 100%;
+}
+
+.containerMiddle {
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+}
+
+.containerBottom {
+    position: absolute;
+    height: 14%;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.links {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    height: 30%;
+    width: 10%;
+    text-align: right;
+    padding: 10px;
+}
+
+#researcher:link, #researcher:visited {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+#researcher:hover {
+    text-decoration: underline;
+}
+
+
+.searchLogo, .searchComponents {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+}
+
+.searchLogo {
+    width: 50%;
+    height: 18%;
+    bottom: 50%;
+}
+
+.searchComponents {
+    width: 50%;
+    height: 15%;
+    bottom: 0%;
+}
+
+.searchInput {
+    position: absolute;
+    margin: auto;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    right: 0%;
+    left: 0%;
+    height: 60%;
+    width: 80%;
+    border-radius: 24px;
+}
+
+
+.searchButton {
+    position: absolute;
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    top: 100%;
+}
+
+#searchIcon {
+    position: absolute;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    left: 2%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#searchBar {
+    position: absolute;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #e8eaed;
+    width: 80%;
+    left: 40px;
+    top: 0%;
+    bottom: 0%;
+}
+
+.searchInput:hover {
+    box-shadow: 0 1px 6px 0 #171717;
+    background: #303134;
+    border-color: rgba(223,225,229,0);
+}
+
+#button {
+    cursor: pointer;
+    user-select: none;
+    background-color: #303134;
+    color: #e8eaed;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    margin: 4px;
+    height: 100%;
+    width: 140px;
+}
+
+#button:hover {
+    border: 1px solid #5f6368;
+}
