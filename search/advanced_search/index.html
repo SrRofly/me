@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>SrRofly Advanced Search</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="containerTop">
+            <div class="aTop">
+                <div class="Cname">
+                    <img id="name" src="/images/logo.png" alt="Logo">
+                </div>
+                <div class="links">
+                    <a id="researcher" href="/">Home</a>
+                </div>
+                <div class="Ctitle">
+                    <label id="title">Advanced Search</label>
+                </div>
+                <div id="line"></div>
+            </div>
+        </div>
+
+        <div class="containerMiddle">
+            <div class="advancedComponents">
+                <form action="https://www.google.com/search" method="GET" name="f">
+                    <div class="separator">
+                        <span>Find pages with...</span>
+                    </div>
+
+                    <div class="separator">
+                        <label for="advancedInputAs_q">all these words:</label>
+                        <input id="advancedInputAs_q" type="text" name="as_q" autofocus="autofocus">
+                    </div>
+
+                    <div class="separator">
+                        <label for="advancedInputAs_epq">this exact word or phrase:</label>
+                        <input id="advancedInputAs_epq" type="text" name="as_epq">
+                    </div>
+
+                    <div class="separator">
+                        <label for="advancedInputAs_oq">any of these words:</label>
+                        <input id="advancedInputAs_oq" type="text" name="as_oq">
+                    </div>
+
+                    <div class="separator">
+                        <label for="advancedInputAs_eq">none of these words:</label>
+                        <input id="advancedInputAs_eq" type="text" name="as_eq">
+                    </div>
+
+                    <div class="separator">
+                        <input id="advancedButton" type="submit" value="Advanced Search">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="containerBottom">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
