@@ -227,7 +227,7 @@ span {
     cursor: text;
     float: right;
     min-width: 100px;
-    width: 70%;
+    width: 65%;
 }
 
 .separator input:focus {
